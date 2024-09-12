@@ -87,15 +87,15 @@ export default function Home() {
           type="text"
           placeholder="End Location"
           value={endLocation}
-          onChange={(e) => setStartLocation(e.target.value)}
-          className="bg-gradient-to-r from-[#16171b] via-[#323335] to-[#101114] border border-gray-400 p-3 rounded-lg w-72 text-gray-700 
+          onChange={(e) => setEndLocation(e.target.value)}
+          className="bg-gradient-to-r from-[#16171b] via-[#323335] to-[#101114] border border-gray-400 p-3 rounded-lg w-72 text-white-700 
              border-1 border-pink shadow-[0_0_10px_2px_rgba(255,255,255,0.7)] 
              hover:shadow-[0_0_15px_4px_rgba(255,255,255,0.9)]"
         />
 
         <button
           type="submit"
-          className=" font-bold bg-gradient-to-r from-[#fa5560] via-[#b14bf4] to-[#4d91ff] text-white px-6 py-3 rounded-lg hover:from-orange-300 hover:via-orange-400 hover:to-orange-500 transition"
+          className=" font-bold bg-gradient-to-r from-[#fa5560] via-[#b14bf4] to-[#4d91ff] text-white px-6 py-3 rounded-lg hover:from-[#4d91ff]hover:via-orange-400 hover:to-orange-500 transition"
         >
           Get Directions
         </button>
